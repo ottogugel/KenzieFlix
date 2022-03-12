@@ -1,11 +1,11 @@
-/*Cascading Style Sheets(Folha de Estilos em Cascata, em portuguÃªs)
+/*Cascading Style Sheets(Folha de Estilos em Cascata, em português)
  - ESTRUTURA DO CSS
 
 --seletor - selecionar um elemento
 --propriedade - cor de fundo
 --valor - azul
 
---declaraÃ§Ã£o de uma regra */
+--declaração de uma regra */
 
 /* ESTILOS GERAIS*/
 body,figure,img,div,header,nav,main,ul,li,a,p,section,article,h1,h2,footer{
@@ -53,7 +53,7 @@ body{
 }
 /* ESTILOS GERAIS*/
 
-/* ESTILO DO CABEÃ‡ALHO*/
+/* ESTILO DO CABEÇALHO*/
 .cabecalho{
     background-color: #141414;
     padding: 16px 0;
@@ -75,7 +75,7 @@ body{
 .cabecalho .cabecalho__menu li{}
 .cabecalho .cabecalho__menu a{}
 
-/*ESTILO ÃREA DE CONFIGURAÃ‡ÃƒO */
+/*ESTILO ÁREA DE CONFIGURAÇÃO */
 .cabecalho .cabecalho__menuConfiguracao{}
 .cabecalho .cabecalho__menuConfiguracao ul{
     
@@ -83,10 +83,10 @@ body{
 .cabecalho .cabecalho__menuConfiguracao li{}
 .cabecalho .cabecalho__menuConfiguracao a{}
 
-/*ESTILO CONTEÃšDO PRINCIPAL */
+/*ESTILO CONTEÚDO PRINCIPAL */
 main{}
 
-/*ESTILO SEÃ‡ÃƒO DESTAQUE */
+/*ESTILO SEÇÃO DESTAQUE */
 .secaoDestaque{
     background-image: url(../img/destaque.png);
     background-size: cover;
@@ -133,7 +133,7 @@ main{}
     display: none;
 }
 
-/*ESTILO SEÃ‡ÃƒO FIMLES */
+/*ESTILO SEÇÃO FIMLES */
 .secaoFilmes{
     color: #E5E5E5;
     padding: 0 20px;
@@ -156,7 +156,7 @@ main{}
 .secaoFilmes .secaoFilmes__listaFilmes li figure{}
 .secaoFilmes .secaoFilmes__listaFilmes li img{}
 
-/*ESTILO RODAPÃ‰ */
+/*ESTILO RODAPÉ */
 .rodape{
     padding: 0 20px;
     margin-top: 30px;
